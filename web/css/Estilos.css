@@ -1,0 +1,161 @@
+#div{
+    width: auto;
+    margin: 20px auto 0px auto;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    background-color: beige;
+    border-style: solid ;
+    width: 98%;
+    height: 660px;
+    border-color: transparent;
+}
+#div2{
+    margin: 20px 20px;
+    background-color: transparent;
+    border-style: solid;
+    width: 90%;
+    height: 80px;
+    border-color: transparent;
+}
+#div3{
+    margin: -10px 20px;
+    background-color: transparent;
+    border-style: solid;
+    width: 97%;
+    height: 110px;
+}
+#divmed{
+    margin: 20px auto 0px auto;
+}
+#div4{
+    margin: 20px 20px;
+    background-color: transparent;
+    border-style: solid;
+    width: 27%;
+    height: 400px;
+}
+#div5{
+    margin-top: -426px;
+    border-style: solid;
+    width: 69%;
+    margin-left: 390px;
+    height: 400px;
+}
+#botones{
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    font-size: 13px;
+    margin-left: 5px;
+}
+#menu ul {
+  list-style: none;
+  margin: 16px;
+  padding: 0;
+
+}
+#menu li {
+  display: inline-block;
+}
+#menu a {
+  display: block;
+  padding: 6px 16px;
+  background-color:gold;
+  color: blue; 
+  width: 100px;
+  height: 35px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 10px 20px;
+  box-shadow: 0px 1px 1px rgba(128, 128, 128, 0.45);
+}
+#menu a:hover {
+    color:white;
+    box-shadow: 0px 2px 2px rgba(128, 128, 128, 0.45);
+}
+.cuadro2{
+    font-size: 30px;
+    margin: 20px auto 0px auto;
+    margin-left: 20px;
+}
+.busqueda{
+    margin-left: 130px;
+    font-size: 25px;
+}
+.txt{
+    margin-left: 160px;
+    font-size: 20px;
+}
+#boton{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#botond{
+    width: 60px;
+    height: 55px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#botonup{
+    width: 55px;
+    height: 55px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#texto{
+    margin-left: 10px;
+}
+  
+.fondo{
+    background: url(.../Imagenes/fondo.jpg);
+    background-size: cover;
+}
+#h1{
+    color:white;
+}
+.Acces{
+    color:orangered;
+    font-style:oblique;
+    font-size: 25px;
+}
+.titulo{
+    background-color: gray;
+    opacity: .80;
+    margin: 20px auto 0px auto;
+    height: 50px;
+    width: 600px;
+}
+#principal{
+    margin: 20px auto 0px auto;
+    height: 650px;
+    width: 1300px;
+}
+#divP{
+    margin-top: 80px;
+    width: auto;
+    background-color: beige;
+    border-width: 500px;
+    padding: 50px 44px 0;
+    border-height: 320px;
+    margin-left:70px;
+    height: 350px;
+    max-width: 270px;
+    border-radius: 0px 70px;
+}
+.bordetxt{
+    margin-top: 20px;
+}
+.botonIn{
+    margin-top: 40px;
+    border-radius: 15px;
+    background-color: gold;
+    color:darkorange;
+    font-weight: bold;
+    font-size: 17px;
+    height: 35px;
+    width: 95px;
+    border-color: transparent;
+}

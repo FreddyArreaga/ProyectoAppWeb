@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Clientes</title>
+        <link rel="stylesheet" href="css/Estilos.css"/>
+        <link rel="icon" href=".../Imagenes/Icon.png" sizes="32x32"/>
+    </h:head>
+    <h:body>
+        <div id="div">
+            <div id="div2">
+                <nav id="menu">
+                    <ul>
+                        <li>
+                            <a href="Clientes.xhtml">Clientes</a>
+                        </li>
+                        <li>
+                            <a href="Ventas.xhtml">Ventas</a>
+                        </li>
+                        <li>
+                            <a href="Proveedores.xhtml">Proveedores</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="div3">
+                <br></br>
+                <b><h:outputText class="cuadro2" value="Clientes"/></b>
+                <h:outputText value=""/> 
+                <h:inputText class="busqueda"/>
+                <h:outputText class="txt" value="Usuario: #{usuario.usuario}"/>
+                <h:outputText class="txt" value="Rol: "/>
+            </div>
+            <div id="divmed">
+                <form>
+                        <div id="div4">
+                            <div id="texto">
+                            <p></p><h:outputText value="Ingresar Datos del Cliente"/>
+                            <br/><p></p>Documento de identificación
+                            <p></p><h:inputText/>
+                            <br/><p></p>Nombres Completos
+                            <p></p><h:inputText/>
+                            <br/><p></p>Dirección
+                            <p></p><h:inputText/>
+                            <br/><p></p>Telefono
+                            <p></p><h:inputText/>
+                            <br></br>
+                            </div>
+                            <h:commandButton id="boton" image=".../Imagenes/save.png"/>
+                            <h:commandButton id="botond" image=".../Imagenes/delete.png"/>
+                            <h:commandButton id="botonup" image=".../Imagenes/update.png"/>
+                            <h:commandButton id="boton" image=".../Imagenes/search.png"/>
+                        </div>
+                        <div id="div5">
+                            <h:dataTable>
+                                
+                            </h:dataTable>
+                        </div>
+                </form>   
+            </div>
+            
+        </div>
+    </h:body>
+</html>
+
