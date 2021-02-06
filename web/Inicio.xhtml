@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head >
+        <title>Gestor XYZ</title>
+        <link rel="stylesheet" href="css/Estilos.css"/>
+        <link rel="icon" href=".../Imagenes/Icon.png" sizes="32x32"/>
+    </h:head>
+    <h:body class="fondo">
+        <h:form> 
+            <div id="principal">
+                <br/><h1 id="h1" class="titulo" align="center">SISTEMA GESTOR DE VENTAS</h1>
+                <div align="center" id="divP">
+                    <b><p:outputLabel class="Acces" value="INGRESAR DATOS"/></b>
+                    <br></br>
+                    <div><br></br>
+                        <img src=".../Imagenes/Login.png" width="40%"/> 
+                    </div>
+                    <p:inputText id="txtuser" placeholder="Usuario" class="bordetxt" required="true" value="#{usuario.usuario}"/>     
+                    <p:password id="pass" placeholder="Contraseña" class="bordetxt" required="true" value="#{usuario.password}"/>
+                    <h:message for="txtuser"/>
+                    <h:message for="pass"/>
+                    <h:commandButton value="Aceptar" class="botonIn" action="Clientes.xhtml"/>
+                </div>
+            </div>          
+        </h:form>
+    </h:body>
+</html>
+
