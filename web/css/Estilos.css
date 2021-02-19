@@ -30,14 +30,15 @@
 }
 #div4{
     margin: 20px 20px;
-    background-color: transparent;
-    border-style: solid;
+    background-color: white;
+    border-style: groove;
     width: 27%;
     height: 400px;
 }
 #div5{
     margin-top: -426px;
-    border-style: solid;
+    background-color: white;
+    border-style: groove;
     width: 69%;
     margin-left: 390px;
     height: 400px;
@@ -50,25 +51,25 @@
     margin-left: 5px;
 }
 #menu ul {
-  list-style: none;
-  margin: 16px;
-  padding: 0;
+    list-style: none;
+    margin: 16px;
+    padding: 0;
 
 }
 #menu li {
-  display: inline-block;
+    display: inline-block;
 }
 #menu a {
-  display: block;
-  padding: 6px 16px;
-  background-color:gold;
-  color: blue; 
-  width: 100px;
-  height: 35px;
-  font-size: 20px;
-  text-decoration: none;
-  border-radius: 10px 20px;
-  box-shadow: 0px 1px 1px rgba(128, 128, 128, 0.45);
+    display: block;
+    padding: 6px 16px;
+    background-color:gold;
+    color: blue; 
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px 20px;
+    box-shadow: 0px 1px 1px rgba(128, 128, 128, 0.45);
 }
 #menu a:hover {
     color:white;
@@ -108,7 +109,7 @@
 #texto{
     margin-left: 10px;
 }
-  
+
 .fondo{
     background: url(.../Imagenes/fondo.jpg);
     background-size: cover;
@@ -158,4 +159,72 @@
     height: 35px;
     width: 95px;
     border-color: transparent;
+}
+/*Plantilla*/
+.header {
+    padding: 1px;
+    text-align: center;
+    background: #3E41CE;
+    background: -moz-linear-gradient(left, #3E41CE 0%, #3888A4 53%, #41C4C5 100%);
+    background: -webkit-linear-gradient(left, #3E41CE 0%, #3888A4 53%, #41C4C5 100%);
+    background: linear-gradient(to right, #3E41CE 0%, #3888A4 53%, #41C4C5 100%);
+}
+.header h1 {
+    font-size: 50px;
+    color: white;
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+.leftcolumn {
+    float: left;
+    width: 18%;
+    /*padding-top: 80px;*/
+    padding-bottom: 35%;
+    background:black;
+}
+.rightcolumn {
+    float: left;
+    width: 75%;
+    background-color: #f1f1f1;
+    /*padding-left: 50px;*/
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: none;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
 }

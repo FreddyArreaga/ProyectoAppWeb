@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Punto Venta</title>
+        <link rel="stylesheet" href="css/Estilos.css"/>
+    </h:head>
+    <h:body>
+        <div class="header">
+            <h1>Punto de Venta</h1>
+        </div>
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="topnav">
+                    <a href="Clientes.xhtml">Clientes</a>
+                    <a href="Ventas.xhtml">Ventas</a>
+                    <a href="Proveedores.xhtml">Proveedores</a>
+                    <a href="Productos.xhtml">Productos</a>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div id="divmed">
+                    <form>
+                        <div id="div4">
+                            <br></br>
+                            <b><p:outputLabel style="margin-left: 8px; margin-top: 30px" id="lblIngresoVentas" value="Ingreso de la información de la venta"/></b>
+                            <br></br>
+                            <br></br>  
+                            <p:outputLabel id="lblProducto" style="margin-left: 8px;" value="Producto:"/>
+                            <p:inputText style="margin-left: 8px; margin-top: 10px" id="txtProducto"/>
+                            <p:outputLabel style="margin-left: 8px; margin-top: 10px" id="lblCantidad" value="Cantidad:"/>
+                            <p:inputText style="margin-left: 8px;margin-top: 10px" id="txtCantidad"/>
+                            <p:outputLabel style="margin-left: 8px; margin-top: 10px" id="lblPrecio" value="Precio:"/>
+                            <p:inputText style="margin-left: 26px; margin-top: 10px" id="txtPrecio"/>
+                            <br></br>
+                            <center> 
+                                <p:commandButton style="margin-top: 12px;" value="Agregar" icon="fa-users" type="button"/>
+                            </center>
+                            <br></br>
+                            <br></br>
+                            <h:outputText/> 
+                            <p:outputLabel style="margin-left: 15px;" id="lblCliente" value="Cliente:"/>
+                            <p:inputText style="margin-left: 15px;" id="txtCliente"/>
+                            <br></br>
+                            <br></br>
+                            <p:commandButton style="margin-left: 15px;" value="Generar Venta" icon="fa-users" type="button"/>
+                            <p:commandButton style="margin-left: 15px;" value="Eliminar" icon="fa-users" type="button"/>
+                        </div>
+                        <div id="div5">
+                            <p:outputLabel id="lblInfoVneta" value="Información de Ventas"/>
+                            <br></br>
+                            <br></br>
+                            <p:dataTable >
+                                <p:column headerText="Codigo">
+                                    <p:outputLabel />
+                                </p:column>
+                                <p:column headerText="Producto">
+                                    <p:outputLabel />
+                                </p:column>
+                                <p:column headerText="Cantidad">
+                                    <p:outputLabel />
+                                </p:column>
+                                <p:column headerText="Precio">
+                                    <p:outputLabel />
+                                </p:column>
+                            </p:dataTable> 
+                            <br>
+
+                            </br>
+                            <br></br>
+                            <p:outputLabel id="lblTotal" value="Total a pagar:"/>
+                            <p:inputText id="txtTotal" disabled="true"/>
+                            <br></br>
+                            <p></p><p:outputLabel id="pagacom" value="Paga con:"/>
+                            <p:inputText id="txtPagacon"/>
+                            <br></br>
+                            <p></p><p:outputLabel id="Cambio" value="Cambio:"/>
+                            <p:inputText id="txtCambio"/>
+                        </div>
+                    </form>   
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h5>FOOTER <br></br>Grupo 3 
+            </h5>
+        </div>
+    </h:body>
+</html>
+
